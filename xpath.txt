@@ -1,0 +1,5 @@
+    Links = //div[@class="V_Title" or @class="news V_Title_Img"]/h2/a/@href
+    Titulo = //h2[@style="font-size: 45px; line-height: 49px;" or @style="font-size: 44px; line-height: 48px;"]/a/text()
+    Resumen = //div[@class="lead"]/p/text()
+    Autor = //div[@class="autorArticle"]/p/text()
+    Cuerpo = //div[@class="html-content"]/p[not(@class)]/text()
